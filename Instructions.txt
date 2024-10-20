@@ -1,0 +1,39 @@
+firstly extract the ffmpeg file to C:\ffmpeg-7.1
+
+Now, let's add C:\ffmpeg-7.1 to the System Path so you can run FFmpeg commands from any Command Prompt window.
+
+Open Environment Variables:
+
+Right-click on the Start button and choose System.
+
+Click on Advanced system settings on the left sidebar.
+
+In the System Properties dialog, click on the Environment Variables button at the bottom.
+
+Edit the Path Variable:
+
+Under System variables, find and select the Path variable, then click on Edit.
+
+In the Editing Environment Variable window, click on New and enter C:\ffmpeg-7.1 (or the exact path where ffmpeg.exe is located).
+
+Click OK to close the window and again click OK to close the System Properties dialog.
+
+
+
+
+Step 3: Test FFmpeg in Command Prompt
+Open Command Prompt:
+
+Press Win + R to open the Run dialog box.
+Type cmd and hit Enter.
+Check FFmpeg:
+
+In the Command Prompt, type the following command and press Enter:
+
+
+ffmpeg -version
+
+
+If everything is set up correctly, you should see the version information of FFmpeg displayed.
+
+then run the code, enjoy!
